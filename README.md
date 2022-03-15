@@ -1,10 +1,10 @@
 
-Testcase
+Testcase  
 We'd like to see how you handle this testcase. It uses databases, encryption,
 date functions and some AJAX handling in jQuery. Please write everything in
 OOP. You can leave the html/css plain. A little styling is a nice to have.
 
-Year
+Year  
 Create a simple form with an input year and use the method POST.
 Count the filled in year backwards, and show which year is a primenumber.
 Execute it until you have 30 prime years. Also tell on which day christmas is
