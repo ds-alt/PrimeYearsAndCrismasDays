@@ -1,0 +1,65 @@
+--
+-- Database: `prime_db`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `events`
+--
+
+CREATE TABLE `events` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `start_event` date NOT NULL,
+  `end_event` date NOT NULL
+);
+
+--
+-- Dumping data for table `events`
+--
+
+INSERT INTO `events` (`id`, `title`, `start_event`, `end_event`) VALUES
+(2, 'Christmas Day - Mon', '1991-01-07', '1991-01-08'),
+(3, 'Christmas Day - Tue', '1992-01-07', '1992-01-08'),
+(4, 'Christmas Day - Thu', '1993-01-07', '1993-01-08'),
+(5, 'Christmas Day - Fri', '1994-01-07', '1994-01-08'),
+(6, 'Christmas Day - Sat', '1995-01-07', '1995-01-08'),
+(7, 'Christmas Day - Sun', '1996-01-07', '1996-01-08'),
+(8, 'Christmas Day - Tue', '1997-01-07', '1997-01-08'),
+(9, 'Christmas Day - Wed', '1998-01-07', '1998-01-08'),
+(10, 'Christmas Day - Thu', '1999-01-07', '1999-01-08'),
+(11, 'Christmas Day - Fri', '2000-01-07', '2000-01-08'),
+(12, 'Christmas Day - Sun', '2001-01-07', '2001-01-08'),
+(13, 'Christmas Day - Mon', '2002-01-07', '2002-01-08'),
+(14, 'Christmas Day - Tue', '2003-01-07', '2003-01-08'),
+(15, 'Christmas Day - Wed', '2004-01-07', '2004-01-08'),
+(16, 'Christmas Day - Fri', '2005-01-07', '2005-01-08'),
+(17, 'Christmas Day - Sat', '2006-01-07', '2006-01-08'),
+(18, 'Christmas Day - Sun', '2007-01-07', '2007-01-08'),
+(19, 'Christmas Day - Mon', '2008-01-07', '2008-01-08'),
+(20, 'Christmas Day - Wed', '2009-01-07', '2009-01-08'),
+(21, 'Christmas Day - Thu', '2010-01-07', '2010-01-08'),
+(22, 'Christmas Day - Fri', '2011-01-07', '2011-01-08'),
+(23, 'Christmas Day - Sat', '2012-01-07', '2012-01-08'),
+(24, 'Christmas Day - Mon', '2013-01-07', '2013-01-08'),
+(25, 'Christmas Day - Tue', '2014-01-07', '2014-01-08'),
+(26, 'Christmas Day - Wed', '2015-01-07', '2015-01-08'),
+(27, 'Christmas Day - Thu', '2016-01-07', '2016-01-08'),
+(28, 'Christmas Day - Sat', '2017-01-07', '2017-01-08'),
+(29, 'Christmas Day - Sun', '2018-01-07', '2018-01-08'),
+(30, 'Christmas Day - Mon', '2019-01-07', '2019-01-08'),
+(31, 'Christmas Day - Tue', '2020-01-07', '2020-01-08'),
+(32, 'Christmas Day - Thu', '2021-01-07', '2021-01-08');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `primeyears`
+--
+
+CREATE TABLE `primeyears` (
+  `id` int(3) NOT NULL,
+  `date_from` year(4) NOT NULL,
+  `date_to` year(4) NOT NULL
+);
