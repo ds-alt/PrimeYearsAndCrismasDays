@@ -21,6 +21,7 @@ return the output in javascript the ajax function of jQuery.
 This gives you the following:
 1. Input data:
   1. Input year
+  
   2. Send form
     1. Send data to server
     2. Insert encrypted data into database
